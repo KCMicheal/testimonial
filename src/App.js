@@ -17,10 +17,11 @@ class App extends Component {
           </ThemeProvider>
         </Grid>
         <Grid item container>
-          <Grid item xs={0} sm={2}/>
+          <Grid item xs={0} sm={2} md={3} lg={1}/>
             <Jumbotron/>
-          <Grid item xs={0} sm={2}/>
+          <Grid item xs={0} sm={2} md={3} lg={1}/>
         </Grid>
+        
         
       </Grid>
       
